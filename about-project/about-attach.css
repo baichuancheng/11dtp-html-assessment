@@ -27,7 +27,7 @@ header div {
   padding-bottom: 10px;
 }
 nav {
-  background-image: url("theme.png");
+  background-image: url("wooly-background.png");
   width: 100%;
   height: 1000px;
   background-size: cover;
@@ -58,16 +58,17 @@ nav {
   max-width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 .intro {
-  margin-right: 130px;
+  margin-left: 130px;
   border-radius: 8px;
   padding: 40px;
   box-shadow: 0 0 10px 0 gray;
 }
 .intro-container img {
   width: 100%;
+  box-shadow: 0 0 10px 0 gray;
 }
 .intro p {
   border-left: solid rgb(255, 136, 0) 6px;
@@ -75,36 +76,55 @@ nav {
   font-family: Jost;
   margin: 0;
 }
-.method-container {
-  background-image: url("dna.png");
+.hr1{
   width: auto;
-  height: auto;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  box-shadow: 0 0 10px 7px gray;
+  max-width: 600px;
 }
-.method-text-container {
-  background-color: rgb(0, 0, 0, 0.6);
+.intro-container-1 {
+  display: flex;
+  align-items: center;
+  display: block;
+  margin: auto;
   width: auto;
-  height: 100%;
-  padding: 70px;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  margin-bottom: 90px;
 }
-.method-container h1 {
-  color: white;
+.intro-1{
+  margin-right: 90px;
+}
+#forrest{
+  box-shadow: 0 0 10px 0 gray;
+  margin-top: 40px;
+}
+.intro-1 p{
   font-family: Jost;
+  display: flex;
+  justify-content: center;
 }
-.method-container p {
-  line-height: 30px;
-  color: white;
+.intro-container-1 img {
+  width: 100%;
+}
+.intro-1 table{
+  display: flex;
+  justify-content: center;
+}
+.intro-1 table{
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+.intro-1 table th, .intro-container-1 table td{
+  padding: 15px 15px;
+  align-items: center;
   font-family: Jost;
+  font-weight: 400;
+  border: solid 1px rgb(239, 239, 239);
+  border-collapse: collapse;
 }
-.method-container .title {
-  font-style: italic;
-  font-weight: bold;
-  font-size: large;
+.intro-1 table tr:nth-child(even) {
+  background-color: #a6dbc1;
 }
 footer {
   display: flex;
@@ -124,8 +144,10 @@ footer {
   width: 100%;
 }
 .contact {
-  display: flex;
   margin-right: 30px;
+}
+.contact p{
+  font-family: Jost;
 }
 #email-contact {
   border-style: solid;
