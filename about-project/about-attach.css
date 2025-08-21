@@ -74,7 +74,6 @@ nav {
   border-left: solid rgb(255, 136, 0) 6px;
   padding-left: 17px;
   font-family: Jost;
-  margin: 0;
 }
 .hr1 {
   width: auto;
@@ -85,7 +84,7 @@ nav {
   background-color: rgb(0, 0, 0, 0.3);
   border: solid 1px gray;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px 15px;
 }
 .intro-container-1 p {
   font-family: Jost;
@@ -113,9 +112,10 @@ nav {
   background-color: #88ac9b;
 }
 .main {
-  background-image: url("image.png");
+  background-image: url("forrest1.png");
   width: 100%;
-  height: 900px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -123,8 +123,22 @@ nav {
   margin-bottom: 100px;
   box-shadow: 0 0 10px 7px gray;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.location p{
+  color: white;
+  font-family: Jost;
+  text-align: center;
+
+}
+.location{
+  margin-top: 50px;
+  border: solid rgb(144, 144, 144) 1px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
 }
 footer {
   display: flex;
